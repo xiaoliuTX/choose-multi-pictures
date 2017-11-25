@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="imageCell" id="NzN-yf-9uf" customClass="XLViewImageCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JML-yj-34L">
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="667"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </scrollView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="JML-yj-34L" firstAttribute="top" secondItem="NzN-yf-9uf" secondAttribute="top" id="30U-EJ-ylZ"/>
+                <constraint firstAttribute="trailing" secondItem="JML-yj-34L" secondAttribute="trailing" constant="15" id="FrM-YN-fqx"/>
+                <constraint firstAttribute="bottom" secondItem="JML-yj-34L" secondAttribute="bottom" id="GDA-9y-B9o"/>
+                <constraint firstItem="JML-yj-34L" firstAttribute="leading" secondItem="NzN-yf-9uf" secondAttribute="leading" id="eyj-9y-CAn"/>
+            </constraints>
+            <connections>
+                <outlet property="scrollContainerView" destination="JML-yj-34L" id="g0T-A2-Qs0"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

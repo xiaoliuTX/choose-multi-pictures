@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17B0BF41F9EE55C005E1605 /* XLViewImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17B0BF11F9EE55C005E1605 /* XLViewImageCollectionCell.xib */; };
+		A17B0BF51F9EE55C005E1605 /* XLViewImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B0BF31F9EE55C005E1605 /* XLViewImageCollectionCell.m */; };
+		A180B45A1F9F3CF900AEAA68 /* XLAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A180B4591F9F3CF900AEAA68 /* XLAlbumModel.m */; };
+		A18B70C01F9DDC4100F3960C /* UIImage+ResizeMagick.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B70BF1F9DDC4100F3960C /* UIImage+ResizeMagick.m */; };
+		A18B70C31F9DDFC800F3960C /* XLPhotosSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B70C21F9DDFC800F3960C /* XLPhotosSliderViewController.m */; };
+		A1A576AA1F99E6130057CA36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A576A91F99E6130057CA36 /* AppDelegate.m */; };
+		A1A576AD1F99E6130057CA36 /* XLAlbumsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A576AC1F99E6130057CA36 /* XLAlbumsTableViewController.m */; };
+		A1A576B01F99E6130057CA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A576AE1F99E6130057CA36 /* Main.storyboard */; };
+		A1A576B21F99E6130057CA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A576B11F99E6130057CA36 /* Assets.xcassets */; };
+		A1A576B51F99E6130057CA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A576B31F99E6130057CA36 /* LaunchScreen.storyboard */; };
+		A1A576B81F99E6130057CA36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A576B71F99E6130057CA36 /* main.m */; };
+		A1A576C01F99EDB50057CA36 /* PhotoAssetsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A576BF1F99EDB50057CA36 /* PhotoAssetsTableViewCell.m */; };
+		A1A576C31F99F01D0057CA36 /* XLPhotosViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A576C21F99F01D0057CA36 /* XLPhotosViewerController.m */; };
+		A1A576C61F99F2BF0057CA36 /* XLPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A576C51F99F2BF0057CA36 /* XLPhotosCollectionViewCell.m */; };
+		A1D3E4DB1FA039B5006F2B44 /* XLPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D3E4DA1FA039B5006F2B44 /* XLPhotoManager.m */; };
+		A1D3E4DE1FA06EDA006F2B44 /* XLSliderThumbCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D3E4DD1FA06EDA006F2B44 /* XLSliderThumbCell.m */; };
+		A1D3E4E11FA0725B006F2B44 /* XLSelectImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D3E4E01FA0725B006F2B44 /* XLSelectImageModel.m */; };
+		A1E47AFA1FA1937D0046043B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E47AF91FA1937D0046043B /* ViewController.m */; };
+		C3158CD6F1F15A4E062B203E /* libPods-选择多张照片.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EABDFABA0EFDCB96983EEB70 /* libPods-选择多张照片.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47B4AD34FF08538647EF91C5 /* Pods-选择多张照片.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-选择多张照片.debug.xcconfig"; path = "Pods/Target Support Files/Pods-选择多张照片/Pods-选择多张照片.debug.xcconfig"; sourceTree = "<group>"; };
+		65F179E0E24197D9499F2727 /* Pods-选择多张照片.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-选择多张照片.release.xcconfig"; path = "Pods/Target Support Files/Pods-选择多张照片/Pods-选择多张照片.release.xcconfig"; sourceTree = "<group>"; };
+		A17B0BF11F9EE55C005E1605 /* XLViewImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLViewImageCollectionCell.xib; sourceTree = "<group>"; };
+		A17B0BF21F9EE55C005E1605 /* XLViewImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLViewImageCollectionCell.h; sourceTree = "<group>"; };
+		A17B0BF31F9EE55C005E1605 /* XLViewImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLViewImageCollectionCell.m; sourceTree = "<group>"; };
+		A180B4581F9F3CF900AEAA68 /* XLAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAlbumModel.h; sourceTree = "<group>"; };
+		A180B4591F9F3CF900AEAA68 /* XLAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAlbumModel.m; sourceTree = "<group>"; };
+		A18B70BE1F9DDC4100F3960C /* UIImage+ResizeMagick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+ResizeMagick.h"; path = "../../仿朋友圈/仿朋友圈/UIImage+ResizeMagick.h"; sourceTree = "<group>"; };
+		A18B70BF1F9DDC4100F3960C /* UIImage+ResizeMagick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ResizeMagick.m"; path = "../../仿朋友圈/仿朋友圈/UIImage+ResizeMagick.m"; sourceTree = "<group>"; };
+		A18B70C11F9DDFC800F3960C /* XLPhotosSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPhotosSliderViewController.h; sourceTree = "<group>"; };
+		A18B70C21F9DDFC800F3960C /* XLPhotosSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPhotosSliderViewController.m; sourceTree = "<group>"; };
+		A1A576A51F99E6130057CA36 /* 选择多张照片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "选择多张照片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A576A81F99E6130057CA36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1A576A91F99E6130057CA36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1A576AB1F99E6130057CA36 /* XLAlbumsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAlbumsTableViewController.h; sourceTree = "<group>"; };
+		A1A576AC1F99E6130057CA36 /* XLAlbumsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAlbumsTableViewController.m; sourceTree = "<group>"; };
+		A1A576AF1F99E6130057CA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1A576B11F99E6130057CA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A576B41F99E6130057CA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1A576B61F99E6130057CA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A576B71F99E6130057CA36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1A576BE1F99EDB50057CA36 /* PhotoAssetsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAssetsTableViewCell.h; sourceTree = "<group>"; };
+		A1A576BF1F99EDB50057CA36 /* PhotoAssetsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAssetsTableViewCell.m; sourceTree = "<group>"; };
+		A1A576C11F99F01D0057CA36 /* XLPhotosViewerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPhotosViewerController.h; sourceTree = "<group>"; };
+		A1A576C21F99F01D0057CA36 /* XLPhotosViewerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPhotosViewerController.m; sourceTree = "<group>"; };
+		A1A576C41F99F2BF0057CA36 /* XLPhotosCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPhotosCollectionViewCell.h; sourceTree = "<group>"; };
+		A1A576C51F99F2BF0057CA36 /* XLPhotosCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPhotosCollectionViewCell.m; sourceTree = "<group>"; };
+		A1D3E4D91FA039B5006F2B44 /* XLPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPhotoManager.h; sourceTree = "<group>"; };
+		A1D3E4DA1FA039B5006F2B44 /* XLPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPhotoManager.m; sourceTree = "<group>"; };
+		A1D3E4DC1FA06EDA006F2B44 /* XLSliderThumbCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLSliderThumbCell.h; sourceTree = "<group>"; };
+		A1D3E4DD1FA06EDA006F2B44 /* XLSliderThumbCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLSliderThumbCell.m; sourceTree = "<group>"; };
+		A1D3E4DF1FA0725B006F2B44 /* XLSelectImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLSelectImageModel.h; sourceTree = "<group>"; };
+		A1D3E4E01FA0725B006F2B44 /* XLSelectImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLSelectImageModel.m; sourceTree = "<group>"; };
+		A1E47AF81FA1937D0046043B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1E47AF91FA1937D0046043B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EABDFABA0EFDCB96983EEB70 /* libPods-选择多张照片.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-选择多张照片.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A576A21F99E6130057CA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3158CD6F1F15A4E062B203E /* libPods-选择多张照片.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A5769C1F99E6130057CA36 = {
+			isa = PBXGroup;
+			children = (
+				A17B0BF21F9EE55C005E1605 /* XLViewImageCollectionCell.h */,
+				A17B0BF31F9EE55C005E1605 /* XLViewImageCollectionCell.m */,
+				A17B0BF11F9EE55C005E1605 /* XLViewImageCollectionCell.xib */,
+				A1A576A71F99E6130057CA36 /* 选择多张照片 */,
+				A1A576A61F99E6130057CA36 /* Products */,
+				C41B05C81EEE08A69E441162 /* Pods */,
+				AD025D7615EE2ADE823A9E00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A576A61F99E6130057CA36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A576A51F99E6130057CA36 /* 选择多张照片.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A576A71F99E6130057CA36 /* 选择多张照片 */ = {
+			isa = PBXGroup;
+			children = (
+				A1A576A81F99E6130057CA36 /* AppDelegate.h */,
+				A1A576A91F99E6130057CA36 /* AppDelegate.m */,
+				A1E47AF81FA1937D0046043B /* ViewController.h */,
+				A1E47AF91FA1937D0046043B /* ViewController.m */,
+				A1A576AE1F99E6130057CA36 /* Main.storyboard */,
+				A1A576B11F99E6130057CA36 /* Assets.xcassets */,
+				A1A576B31F99E6130057CA36 /* LaunchScreen.storyboard */,
+				A1A576B61F99E6130057CA36 /* Info.plist */,
+				A1A576B71F99E6130057CA36 /* main.m */,
+				A1A576BE1F99EDB50057CA36 /* PhotoAssetsTableViewCell.h */,
+				A1A576BF1F99EDB50057CA36 /* PhotoAssetsTableViewCell.m */,
+				A1A576C41F99F2BF0057CA36 /* XLPhotosCollectionViewCell.h */,
+				A1A576C51F99F2BF0057CA36 /* XLPhotosCollectionViewCell.m */,
+				A18B70BE1F9DDC4100F3960C /* UIImage+ResizeMagick.h */,
+				A18B70BF1F9DDC4100F3960C /* UIImage+ResizeMagick.m */,
+				A1A576AB1F99E6130057CA36 /* XLAlbumsTableViewController.h */,
+				A1A576AC1F99E6130057CA36 /* XLAlbumsTableViewController.m */,
+				A1A576C11F99F01D0057CA36 /* XLPhotosViewerController.h */,
+				A1A576C21F99F01D0057CA36 /* XLPhotosViewerController.m */,
+				A18B70C11F9DDFC800F3960C /* XLPhotosSliderViewController.h */,
+				A18B70C21F9DDFC800F3960C /* XLPhotosSliderViewController.m */,
+				A180B4581F9F3CF900AEAA68 /* XLAlbumModel.h */,
+				A180B4591F9F3CF900AEAA68 /* XLAlbumModel.m */,
+				A1D3E4D91FA039B5006F2B44 /* XLPhotoManager.h */,
+				A1D3E4DA1FA039B5006F2B44 /* XLPhotoManager.m */,
+				A1D3E4DC1FA06EDA006F2B44 /* XLSliderThumbCell.h */,
+				A1D3E4DD1FA06EDA006F2B44 /* XLSliderThumbCell.m */,
+				A1D3E4DF1FA0725B006F2B44 /* XLSelectImageModel.h */,
+				A1D3E4E01FA0725B006F2B44 /* XLSelectImageModel.m */,
+			);
+			path = "选择多张照片";
+			sourceTree = "<group>";
+		};
+		AD025D7615EE2ADE823A9E00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EABDFABA0EFDCB96983EEB70 /* libPods-选择多张照片.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C41B05C81EEE08A69E441162 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47B4AD34FF08538647EF91C5 /* Pods-选择多张照片.debug.xcconfig */,
+				65F179E0E24197D9499F2727 /* Pods-选择多张照片.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A576A41F99E6130057CA36 /* 选择多张照片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A576BB1F99E6130057CA36 /* Build configuration list for PBXNativeTarget "选择多张照片" */;
+			buildPhases = (
+				B42D4BD5CE2F8FB1B597D384 /* [CP] Check Pods Manifest.lock */,
+				A1A576A11F99E6130057CA36 /* Sources */,
+				A1A576A21F99E6130057CA36 /* Frameworks */,
+				A1A576A31F99E6130057CA36 /* Resources */,
+				6397691C1DA513264EE73CA2 /* [CP] Embed Pods Frameworks */,
+				3CB60E640AD422D83EA844E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "选择多张照片";
+			productName = "选择多张照片";
+			productReference = A1A576A51F99E6130057CA36 /* 选择多张照片.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A5769D1F99E6130057CA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = xiaoliuTX;
+				TargetAttributes = {
+					A1A576A41F99E6130057CA36 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1A576A01F99E6130057CA36 /* Build configuration list for PBXProject "选择多张照片" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A5769C1F99E6130057CA36;
+			productRefGroup = A1A576A61F99E6130057CA36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A576A41F99E6130057CA36 /* 选择多张照片 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A576A31F99E6130057CA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17B0BF41F9EE55C005E1605 /* XLViewImageCollectionCell.xib in Resources */,
+				A1A576B51F99E6130057CA36 /* LaunchScreen.storyboard in Resources */,
+				A1A576B21F99E6130057CA36 /* Assets.xcassets in Resources */,
+				A1A576B01F99E6130057CA36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CB60E640AD422D83EA844E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-选择多张照片/Pods-选择多张照片-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6397691C1DA513264EE73CA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-选择多张照片/Pods-选择多张照片-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B42D4BD5CE2F8FB1B597D384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A576A11F99E6130057CA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E47AFA1FA1937D0046043B /* ViewController.m in Sources */,
+				A1A576C31F99F01D0057CA36 /* XLPhotosViewerController.m in Sources */,
+				A1D3E4DE1FA06EDA006F2B44 /* XLSliderThumbCell.m in Sources */,
+				A1A576C61F99F2BF0057CA36 /* XLPhotosCollectionViewCell.m in Sources */,
+				A1A576AD1F99E6130057CA36 /* XLAlbumsTableViewController.m in Sources */,
+				A18B70C01F9DDC4100F3960C /* UIImage+ResizeMagick.m in Sources */,
+				A18B70C31F9DDFC800F3960C /* XLPhotosSliderViewController.m in Sources */,
+				A1D3E4E11FA0725B006F2B44 /* XLSelectImageModel.m in Sources */,
+				A17B0BF51F9EE55C005E1605 /* XLViewImageCollectionCell.m in Sources */,
+				A1A576C01F99EDB50057CA36 /* PhotoAssetsTableViewCell.m in Sources */,
+				A1D3E4DB1FA039B5006F2B44 /* XLPhotoManager.m in Sources */,
+				A1A576B81F99E6130057CA36 /* main.m in Sources */,
+				A1A576AA1F99E6130057CA36 /* AppDelegate.m in Sources */,
+				A180B45A1F9F3CF900AEAA68 /* XLAlbumModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1A576AE1F99E6130057CA36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A576AF1F99E6130057CA36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1A576B31F99E6130057CA36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A576B41F99E6130057CA36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1A576B91F99E6130057CA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1A576BA1F99E6130057CA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1A576BC1F99E6130057CA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B4AD34FF08538647EF91C5 /* Pods-选择多张照片.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TFGWJBK4QR;
+				INFOPLIST_FILE = "选择多张照片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoliuTX.lwp.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A576BD1F99E6130057CA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F179E0E24197D9499F2727 /* Pods-选择多张照片.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TFGWJBK4QR;
+				INFOPLIST_FILE = "选择多张照片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoliuTX.lwp.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A576A01F99E6130057CA36 /* Build configuration list for PBXProject "选择多张照片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A576B91F99E6130057CA36 /* Debug */,
+				A1A576BA1F99E6130057CA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A576BB1F99E6130057CA36 /* Build configuration list for PBXNativeTarget "选择多张照片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A576BC1F99E6130057CA36 /* Debug */,
+				A1A576BD1F99E6130057CA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A5769D1F99E6130057CA36 /* Project object */;
+}

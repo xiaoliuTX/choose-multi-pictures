@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__35-[ViewController getOriginalImages]_block_invoke:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[XLPhotosViewerController collectionView:didSelectItemAtIndexPath:]:XLPhotosViewerController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__66-[XLPhotosViewerController collectionView:cellForItemAtIndexPath:]_block_invoke.83:XLPhotosViewerController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[XLPhotoManager shareInstance].selectImagesArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[XLPhotosSliderViewController collectionView:cellForItemAtIndexPath:]:XLPhotosSliderViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.selectImagesArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[XLPhotosSliderViewController viewDidLayoutSubviews]:XLPhotosSliderViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.nowSelectModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
